@@ -1,0 +1,39 @@
+.section-title {
+    margin-bottom: var(--space-xl);
+  }
+  
+  .section-title.centered {
+    text-align: center;
+  }
+  
+  .section-title.light h2 {
+    color: var(--color-neutral-100);
+  }
+  
+  .section-subtitle {
+    font-family: var(--font-heading);
+    color: var(--color-primary-500);
+    font-style: italic;
+    font-size: 1.2rem;
+    margin-bottom: var(--space-xs);
+  }
+  
+  .section-title.light .section-subtitle {
+    color: var(--color-secondary-300);
+  }
+  
+  .title-underline {
+    height: 3px;
+    width: 60px;
+    background-color: var(--color-primary-500);
+    margin-top: var(--space-sm);
+  }
+  
+  .section-title.centered .title-underline {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .section-title.light .title-underline {
+    background-color: var(--color-secondary-300);
+  }

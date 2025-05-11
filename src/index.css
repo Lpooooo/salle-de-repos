@@ -1,13 +1,207 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+:root {
+    /* Color System */
+    --color-primary-100: #EEF2F3;
+    --color-primary-200: #D1DDDC;
+    --color-primary-300: #B5C8C6;
+    --color-primary-400: #98B3B0;
+    --color-primary-500: #7D9D9C;
+    --color-primary-600: #647E7D;
+    --color-primary-700: #4B5E5E;
+    --color-primary-800: #323F3F;
+    --color-primary-900: #192020;
+    
+    --color-secondary-100: #F9F7F1;
+    --color-secondary-200: #F5F2E9;
+    --color-secondary-300: #F0EAD6;
+    --color-secondary-400: #E8E0C2;
+    --color-secondary-500: #DFD6AD;
+    --color-secondary-600: #C5BE9A;
+    --color-secondary-700: #ACA684;
+    --color-secondary-800: #928D6F;
+    --color-secondary-900: #79745A;
+    
+    --color-accent-100: #E8EEF4;
+    --color-accent-200: #C5D3E2;
+    --color-accent-300: #A2B8D0;
+    --color-accent-400: #7F9DBE;
+    --color-accent-500: #5C82AC;
+    --color-accent-600: #3D678A;
+    --color-accent-700: #2E4E69;
+    --color-accent-800: #1D3557;
+    --color-accent-900: #122236;
+    
+    --color-success-500: #4CAF50;
+    --color-warning-500: #FF9800;
+    --color-error-500: #F44336;
+    
+    --color-neutral-100: #FFFFFF;
+    --color-neutral-200: #F5F5F5;
+    --color-neutral-300: #E0E0E0;
+    --color-neutral-400: #BDBDBD;
+    --color-neutral-500: #9E9E9E;
+    --color-neutral-600: #757575;
+    --color-neutral-700: #616161;
+    --color-neutral-800: #424242;
+    --color-neutral-900: #212121;
+    
+    /* Typography */
+    --font-heading: 'Cormorant Garamond', serif;
+    --font-body: 'Montserrat', sans-serif;
+    
+    /* Spacing (8px system) */
+    --space-xs: 8px;
+    --space-sm: 16px;
+    --space-md: 24px;
+    --space-lg: 32px;
+    --space-xl: 48px;
+    --space-xxl: 64px;
+    
+    /* Border Radius */
+    --radius-sm: 4px;
+    --radius-md: 8px;
+    --radius-lg: 16px;
+    
+    /* Transitions */
+    --transition-fast: 200ms ease;
+    --transition-normal: 300ms ease;
+    --transition-slow: 500ms ease;
+    
+    /* Shadows */
+    --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.05);
+    --shadow-md: 0 4px 8px rgba(0, 0, 0, 0.1);
+    --shadow-lg: 0 8px 16px rgba(0, 0, 0, 0.1);
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html, body {
+    width: 100%;
+    height: 100%;
+    font-size: 16px;
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    font-family: var(--font-body);
+    font-weight: 300;
+    line-height: 1.5;
+    color: var(--color-neutral-800);
+    background-color: var(--color-neutral-100);
+    overflow-x: hidden;
+  }
+  
+  #root {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-heading);
+    font-weight: 600;
+    line-height: 1.2;
+    margin-bottom: var(--space-md);
+    color: var(--color-accent-800);
+  }
+  
+  h1 {
+    font-size: 3.052rem;
+    font-weight: 700;
+  }
+  
+  h2 {
+    font-size: 2.441rem;
+  }
+  
+  h3 {
+    font-size: 1.953rem;
+  }
+  
+  h4 {
+    font-size: 1.563rem;
+  }
+  
+  h5 {
+    font-size: 1.25rem;
+  }
+  
+  p {
+    margin-bottom: var(--space-md);
+  }
+  
+  a {
+    color: var(--color-primary-600);
+    text-decoration: none;
+    transition: color var(--transition-fast);
+  }
+  
+  a:hover {
+    color: var(--color-primary-800);
+  }
+  
+  button, .button {
+    display: inline-block;
+    padding: var(--space-xs) var(--space-md);
+    background-color: var(--color-primary-500);
+    color: white;
+    border: none;
+    border-radius: var(--radius-sm);
+    font-family: var(--font-body);
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all var(--transition-fast);
+  }
+  
+  button:hover, .button:hover {
+    background-color: var(--color-primary-600);
+  }
+  
+  .button-secondary {
+    background-color: transparent;
+    color: var(--color-primary-600);
+    border: 1px solid var(--color-primary-500);
+  }
+  
+  .button-secondary:hover {
+    background-color: var(--color-primary-100);
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  section {
+    padding: var(--space-xl) 0;
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 var(--space-md);
+  }
+  
+  /* Media Queries */
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 2.441rem;
+    }
+    
+    h2 {
+      font-size: 1.953rem;
+    }
+    
+    h3 {
+      font-size: 1.563rem;
+    }
+    
+    section {
+      padding: var(--space-lg) 0;
+    }
+  }
