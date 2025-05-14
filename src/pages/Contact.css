@@ -12,6 +12,7 @@
     padding: 0;
   }
   
+
   .contact-hero-content {
     max-width: 800px;
   }
@@ -145,6 +146,11 @@
   .form-success .button:hover {
     background-color: var(--color-neutral-200);
   }
+
+  .buttonMess{
+    color: #fff;
+    background-color: blueviolet;
+  }
   
   .map-container {
     height: 100%;
@@ -228,6 +234,8 @@
       grid-template-columns: 1fr;
     }
   }
+
+
   
   @media (max-width: 576px) {
     .contact-info-grid {

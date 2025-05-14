@@ -146,7 +146,7 @@ const Showcase = () => {
               <ul>
                 <li>Coussins et tapis de méditation ergonomiques</li>
                 <li>Couvertures chauffantes pour une relaxation optimale</li>
-                <li>Casques de réduction de bruit pour une immersion totale</li>
+                <li>Bruit naturelle pour une immersion totale</li>
                 <li>Masques pour les yeux en soie naturelle</li>
               </ul>
             </div>
@@ -176,7 +176,7 @@ const Showcase = () => {
               <ul>
                 <li>Vestiaires privés avec casiers sécurisés</li>
                 <li>Salon d'accueil avec boissons rafraîchissantes</li>
-                <li>Terrasse extérieure pour les beaux jours</li>
+                <li>Insonorisation entières </li>
                 <li>Connexion Wi-Fi dans les zones communes uniquement</li>
               </ul>
             </div>
@@ -195,7 +195,7 @@ const Showcase = () => {
               <ol className="experience-steps">
                 <li>
                   <h4>Réservation</h4>
-                  <p>Choisissez l'espace qui vous convient et réservez votre créneau en ligne ou par téléphone.</p>
+                  <p>Réservez votre créneau en ligne ou par téléphone.</p>
                 </li>
                 <li>
                   <h4>Accueil</h4>

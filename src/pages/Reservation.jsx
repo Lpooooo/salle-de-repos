@@ -28,9 +28,9 @@ const Reservation = () => {
   ]
   
   const durations = [
-    { value: '1', label: '1 heure', price: '25€' },
-    { value: '2', label: '2 heures', price: '45€' },
-    { value: '3', label: '3 heures', price: '60€' }
+    { value: '1', label: '1 heure' },
+    { value: '2', label: '2 heures' },
+    { value: '3', label: '3 heures' }
   ]
   
   const spaces = [
@@ -97,7 +97,7 @@ const Reservation = () => {
         <div className="container">
           {bookingComplete ? (
             <div className="booking-confirmation">
-              <div className="confirmation-icon">
+              <div className="confirmaftion-icon">
                 <FaCheck />
               </div>
               <h2>Réservation Confirmée!</h2>
@@ -206,7 +206,7 @@ const Reservation = () => {
                   
                   <div className="form-actions">
                     <button 
-                      className="button"
+                      className="buttonContinue"
                       onClick={handleNextStep}
                       disabled={!isStepOneComplete}
                     >
@@ -306,7 +306,7 @@ const Reservation = () => {
                       
                       <button 
                         type="submit" 
-                        className="button"
+                        className="buttonConfirm"
                         disabled={!isStepTwoComplete}
                       >
                         Confirmer la Réservation

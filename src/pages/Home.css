@@ -19,7 +19,6 @@
     color: var(--color-neutral-100);
     margin-bottom: var(--space-md);
     font-size: 6rem;
-    
   }
   
   .hero p {
@@ -28,12 +27,24 @@
     max-width: 600px;
     margin-left: auto;
     margin-right: auto;
-  }
   
+  }
+
   .hero-buttons {
     display: flex;
     gap: var(--space-md);
     justify-content: center;
+  }
+  #DiscoverBtn {
+    background-color: blueviolet;
+  }
+
+  #ReserverBtn{
+  background-color: blueviolet;
+  color : #fff;
+  }
+  .hero-button{
+     background-color:#0B1957;
   }
   
   /* Features Section */
@@ -47,20 +58,17 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: var(--space-lg);
-  
   }
   
   .feature-card {
-    background-color: var(--color-neutral-100);
     padding: var(--space-lg);
     border-radius: var(--radius-md);
     box-shadow: var(--shadow-sm);
     text-align: center;
     transition: transform var(--transition-normal), box-shadow var(--transition-normal);
-   background-color: #3C0073;
+    background-color: #3C0073;
     color: var(--color-neutral-100);
   }
-  
   .feature-card:hover {
     transform: translateY(-10px);
     box-shadow: var(--shadow-md);
@@ -99,8 +107,6 @@
     grid-template-columns: 1fr 1fr;
     gap: var(--space-xl);
     align-items: center;
-    
-    
   }
   
   .about-text {
@@ -129,7 +135,7 @@
   
   /* Testimonials Section */
   .testimonials {
-    padding: var(--space-xxl) 0;
+   padding: var(--space-xxl) 0;
    background-color: #645EAF;
    
   }
@@ -228,13 +234,21 @@
     
   }
   
+ .buttonPlus{
+  background-color: #7D3C98;
+  padding: var(--space-sm) var(--space-lg);
+  font-size: 1.1rem;
+  color: #fff; /* Texte en blanc */
+  text-decoration: none;
+ }
+
   .cta p {
     margin-bottom: var(--space-lg);
     font-size: 1.1rem;
   }
   
   .cta .button {
-    background-color: var(--color-primary-500);
+    background-color:#7D3C98;
     padding: var(--space-sm) var(--space-lg);
     font-size: 1.1rem;
   }

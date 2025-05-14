@@ -50,6 +50,7 @@
     margin-bottom: var(--space-xl);
     padding: var(--space-lg) var(--space-md);
     background-color: var(--color-secondary-100);
+    
   }
   
   .step {
@@ -63,8 +64,8 @@
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    background-color: var(--color-neutral-300);
-    color: var(--color-neutral-700);
+    background-color: blueviolet;
+    color: #fff;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -74,10 +75,18 @@
   }
   
   .step.active .step-number {
-    background-color: var(--color-primary-500);
+
     color: var(--color-neutral-100);
+     background-color: blueviolet;
   }
   
+.buttonConfirm{
+  background-color: blueviolet;
+  Color: #fff
+}
+
+
+
   .step.completed .step-number {
     background-color: var(--color-success-500);
     color: var(--color-neutral-100);
@@ -118,10 +127,25 @@
     font-size: 1.3rem;
   }
   
+.time-slot{
+ background-color: #f0f0f0; /* Couleur de fond par défaut */
+  color: #333; /* Couleur du texte */
+  border: 1px solid #ccc; /* Bordure grise */
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+
+}
   .date-picker-container {
     max-width: 300px;
   }
   
+  .date-picker::placeholder {
+  color: white; /* Texte du placeholder en blanc */
+  opacity: 1; /* Assure que le texte est complètement visible */
+}
+
   .date-picker {
     width: 100%;
     padding: var(--space-sm);
@@ -152,6 +176,11 @@
   .time-slot.selected {
     background-color: var(--color-primary-500);
     color: var(--color-neutral-100);
+  }
+
+  .buttonContinue{
+    background-color: blueviolet;
+    color : #fff,
   }
   
   /* Duration Selection */

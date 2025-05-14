@@ -9,6 +9,8 @@
     background-color: #426BC2;
     padding: 50;
     margin : 50;
+    display: flex;
+    height: 100px ; 
   }
   
   .header.scrolled {
@@ -28,6 +30,7 @@
   .logo {
     z-index: 1001;
   }
+
   
   .logo h2 {
     margin: 0;
@@ -51,6 +54,7 @@
     list-style: none;
     gap: var(--space-md);
     align-items: center;
+    font-size: 1.5rem;
   }
   
   .nav-links a {
@@ -60,6 +64,27 @@
      color: white;
   }
   
+.logo img{
+width: 200px;
+}
+
+#one{
+display : none;
+
+}
+#two{
+  display: none;
+}
+#three{
+/*  display: none;  */
+}
+#four{
+  display: none;
+}
+#five{
+  display: none;
+}
+
   .nav-links a::after {
     content: '';
     position: absolute;
@@ -75,11 +100,14 @@
   .nav-links a:hover::after,
   .nav-links a.active::after {
     width: 100%;
+    
   }
   
   .nav-reservation a {
     color:  rgba(255, 255, 255, 0.95);
     background-color: blueviolet;
+    padding-left: 20px;
+     padding-right: 20px;
   }
   
   .nav-reservation a::after {
@@ -135,6 +163,7 @@
     
     .nav-links li {
       width: 100%;
+      
     }
     
     .nav-links a {

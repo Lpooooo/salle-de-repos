@@ -45,11 +45,11 @@ const Footer = () => {
               </li>
               <li>
                 <FaPhoneAlt />
-                <span>+06 95 66 57 19</span>
+                <span>+06 60 60 60 60</span>
               </li> 
               <li>
                 <FaEnvelope />
-                <span>Calysta@ynov.com</span>
+                <span>reservation@Calysta.fr</span>
               </li>
             </ul>
           </div>

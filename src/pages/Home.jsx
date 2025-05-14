@@ -39,8 +39,8 @@ const Home = () => {
             animate={{ opacity: 1 }}
             transition={{ delay: 0.6, duration: 0.6 }}
           >
-            <Link to="/vitrines" className="button">Découvrir</Link>
-            <Link to="/reservation" className="button button-secondary">Réserver</Link>
+            <Link to="/vitrines" className="button" id='DiscoverBtn'>Découvrir</Link>
+            <Link to="/reservation" className="button button-secondary" id='ReserverBtn'>Réserver</Link>
           </motion.div>
         </div>
       </section>
@@ -121,7 +121,7 @@ const Home = () => {
               />
               <p>Depuis notre création, nous avons conçu Tranquillité comme un sanctuaire urbain où chacun peut se reconnecter à soi-même. Notre espace de détente combine des éléments naturels avec un design contemporain pour créer une atmosphère propice à la relaxation.</p>
               <p>Chaque détail a été soigneusement pensé pour vous offrir une expérience multisensorielle apaisante, des arômes subtils aux textures douces, en passant par une acoustique optimisée.</p>
-              <Link to="/histoire" className="button">En savoir plus</Link>
+              <Link to="/histoire" className="buttonPlus">En savoir plus</Link>
             </div>
             <div className="about-image">
               <img src="https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Espace de relaxation avec lumière tamisée" />
@@ -142,7 +142,7 @@ const Home = () => {
           <div className="testimonials-carousel">
             <div className="testimonial-card">
               <div className="testimonial-content">
-                <p>"Un véritable havre de paix en plein centre-ville. Je m'y rends chaque semaine pour décompresser après le travail. Le personnel est attentionné et l'ambiance parfaite."</p>
+                <p>"Un véritable havre de paix en plein centre-ville. Je m'y rends chaque semaine pendant ma pause méridiennes. Le personnel est attentionné et l'ambiance parfaite."</p>
               </div>
               <div className="testimonial-author">
                 <img src="https://images.pexels.com/photos/1181686/pexels-photo-1181686.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Sophie M." />
@@ -161,14 +161,14 @@ const Home = () => {
                 <img src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Thomas D." />
                 <div>
                   <h4>Thomas D.</h4>
-                  <p>Client depuis 2024</p>
+                  <p>Client depuis 2025</p>
                 </div>
               </div>
             </div>
             
             <div className="testimonial-card">
               <div className="testimonial-content">
-                <p>"Absolument parfait ! J'ai offert une séance à mes parents pour leur anniversaire de mariage et ils ont adoré. L'accueil est chaleureux et les installations sont exceptionnelles."</p>
+                <p>"Absolument parfait ! J'ai offert une séance à mes parents et ils ont adoré. La salle était ravaissante et parfumée. L'accueil est chaleureux et les installations sont exceptionnelles."</p>
               </div>
               <div className="testimonial-author">
                 <img src="https://images.pexels.com/photos/1065084/pexels-photo-1065084.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Camille R." />
