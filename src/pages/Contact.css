@@ -5,9 +5,11 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://images.pexels.com/photos/7578939/pexels-photo-7578939.jpeg?auto=compress&cs=tinysrgb&w=1600') no-repeat center/cover;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://i.pinimg.com/originals/87/62/f6/8762f6a75742b0f1fc65e8cd5f9e04fb.jpg') no-repeat center/cover;
     color: var(--color-neutral-100);
     margin-top: 80px;
+    margin: 0;
+    padding: 0;
   }
   
   .contact-hero-content {
@@ -27,7 +29,7 @@
   /* Contact Info Section */
   .contact-info {
     padding: var(--space-xl) 0;
-    background-color: var(--color-secondary-100);
+    background-color: #e8d9ed;
   }
   
   .contact-info-grid {
@@ -55,12 +57,13 @@
     height: 60px;
     border-radius: 50%;
     background-color: var(--color-primary-100);
-    color: var(--color-primary-600);
+    color: #e8d9ed;
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 0 auto var(--space-md);
-    font-size: 1.5rem;
+    font-size: 1.8rem;
+    background-color: blueviolet;
   }
   
   .contact-card h3 {
@@ -70,7 +73,7 @@
   
   .contact-card p {
     margin-bottom: var(--space-xs);
-    font-size: 0.95rem;
+    font-size: 1.2rem;
   }
   
   /* Contact Form Section */
@@ -155,12 +158,14 @@
     width: 100%;
     height: 100%;
     z-index: 1;
+    Color: #fff;
   }
   
   /* FAQ Section */
   .faq {
     padding: var(--space-xxl) 0;
-    background-color: var(--color-primary-100);
+    background-color: #645EAF;
+    Color: #fff;
   }
   
   .faq-grid {
@@ -168,28 +173,34 @@
     grid-template-columns: repeat(2, 1fr);
     gap: var(--space-lg);
     margin-top: var(--space-xl);
+    
   }
   
   .faq-item {
-    background-color: var(--color-neutral-100);
+
     padding: var(--space-lg);
     border-radius: var(--radius-md);
     box-shadow: var(--shadow-sm);
     transition: transform var(--transition-normal);
+    background-color: #0b1957;
+    
   }
   
   .faq-item:hover {
     transform: translateY(-5px);
+    
   }
   
   .faq-item h3 {
     margin-bottom: var(--space-sm);
     color: var(--color-primary-600);
     font-size: 1.3rem;
+    Color: #fff;
   }
   
   .faq-item p {
     margin-bottom: 0;
+
   }
   
   /* Media Queries */

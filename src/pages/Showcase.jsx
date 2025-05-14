@@ -17,36 +17,17 @@ const Showcase = () => {
       image: 'https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
       category: 'meditation'
     },
+  
     {
       id: 2,
-      name: 'Jardin Zen',
-      description: 'Un jardin intérieur inspiré des jardins japonais traditionnels, parfait pour la contemplation.',
-      image: 'https://images.pexels.com/photos/7195784/pexels-photo-7195784.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-      category: 'nature'
-    },
-    {
-      id: 3,
-      name: 'Espace de Lecture',
-      description: 'Une bibliothèque paisible avec une sélection d\'ouvrages sur le bien-être et la croissance personnelle.',
+      name: 'Votre bulle de liberté',
+      description: 'Un espace de liberté pour écouter, regarder, lire... comme il vous plaît.',
       image: 'https://images.pexels.com/photos/5699665/pexels-photo-5699665.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
       category: 'silence'
     },
+
     {
-      id: 4,
-      name: 'Salon Aquatique',
-      description: 'Un espace avec cascades d\'eau et bassins de relaxation pour une expérience multi-sensorielle.',
-      image: 'https://images.pexels.com/photos/7195769/pexels-photo-7195769.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-      category: 'water'
-    },
-    {
-      id: 5,
-      name: 'Atmosphère Nature',
-      description: 'Un espace immersif mêlant végétation luxuriante et sons naturels pour une déconnexion totale.',
-      image: 'https://images.pexels.com/photos/4498362/pexels-photo-4498362.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-      category: 'nature'
-    },
-    {
-      id: 6,
+      id: 3,
       name: 'Chambre Sensorielle',
       description: 'Un environnement où lumières, sons et parfums sont soigneusement orchestrés pour induire la relaxation.',
       image: 'https://images.pexels.com/photos/3045825/pexels-photo-3045825.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
@@ -104,28 +85,10 @@ const Showcase = () => {
           
           <div className="filter-controls">
             <button 
-              className={activeFilter === 'all' ? 'active' : ''} 
-              onClick={() => setActiveFilter('all')}
-            >
-              Tous
-            </button>
-            <button 
               className={activeFilter === 'meditation' ? 'active' : ''} 
               onClick={() => setActiveFilter('meditation')}
             >
               <FaWind /> Méditation
-            </button>
-            <button 
-              className={activeFilter === 'nature' ? 'active' : ''} 
-              onClick={() => setActiveFilter('nature')}
-            >
-              <FaLeaf /> Nature
-            </button>
-            <button 
-              className={activeFilter === 'water' ? 'active' : ''} 
-              onClick={() => setActiveFilter('water')}
-            >
-              <FaWater /> Eau
             </button>
             <button 
               className={activeFilter === 'silence' ? 'active' : ''} 

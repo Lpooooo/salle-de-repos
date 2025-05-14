@@ -36,7 +36,7 @@ const Header = ({ isScrolled }) => {
     <header className={`header ${isScrolled ? 'scrolled' : ''}`}>
       <div className="container header-container">
         <Link to="/" className="logo" onClick={() => setMobileMenuOpen(false)}>
-          <h2>Tranquillité</h2>
+          <h2>Calysta</h2>
         </Link>
         
         <nav className={`main-nav ${mobileMenuOpen ? 'mobile-open' : ''}`}>

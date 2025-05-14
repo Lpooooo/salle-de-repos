@@ -5,13 +5,16 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://images.pexels.com/photos/5266364/pexels-photo-5266364.jpeg?auto=compress&cs=tinysrgb&w=1600') no-repeat center/cover;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('https://images.ctfassets.net/v3n26e09qg2r/26j47Vd0WTJqkZHp15sMpL/405c2a2e7cc8d7f1b2beda96c729b20e/Sleep_-_Category_Image_-_Zzz.png?fm=webp&w=3840&q=75') no-repeat center/cover;
     color: var(--color-neutral-100);
     margin-top: 80px;
+    margin: 0;
+    padding: 0;
   }
   
   .history-hero-content {
     max-width: 800px;
+    
   }
   
   .history-hero h1 {
@@ -22,6 +25,7 @@
   .history-hero p {
     font-size: 1.2rem;
     margin-bottom: 0;
+    
   }
   
   /* History Intro Section */
@@ -34,17 +38,26 @@
     grid-template-columns: 1fr 1fr;
     gap: var(--space-xl);
     align-items: center;
+    
   }
   
   .intro-text {
     padding-right: var(--space-lg);
+    
   }
   
+ .custom-text{
+
+  color: black;
+ }
+
+
   .intro-image {
     position: relative;
     height: 500px;
     overflow: hidden;
     border-radius: var(--radius-md);
+    
   }
   
   .intro-image img {
@@ -52,16 +65,19 @@
     height: 100%;
     object-fit: cover;
     transition: transform var(--transition-slow);
+    
   }
   
   .intro-image:hover img {
     transform: scale(1.05);
+    
   }
   
   /* Timeline Section */
   .timeline {
     padding: var(--space-xxl) 0;
-    background-color: var(--color-secondary-100);
+    background-color: #e8d9ed;
+    
   }
   
   .timeline-container {
@@ -77,7 +93,7 @@
     top: 0;
     bottom: 0;
     width: 3px;
-    background-color: var(--color-primary-300);
+    background-color: #3C0073;
     transform: translateX(-50%);
   }
   
@@ -112,7 +128,7 @@
     top: 20px;
     width: 20px;
     height: 20px;
-    background-color: var(--color-neutral-100);
+    background-color: #3C0073;
     transform: rotate(45deg);
   }
   
@@ -127,7 +143,7 @@
   .timeline-year {
     display: inline-block;
     padding: var(--space-xs) var(--space-sm);
-    background-color: var(--color-primary-500);
+    background-color: #3C0073;
     color: var(--color-neutral-100);
     border-radius: var(--radius-sm);
     font-weight: 500;
@@ -186,7 +202,7 @@
   .philosophy-principles h4 {
     margin-bottom: var(--space-xs);
     font-size: 1.2rem;
-    color: var(--color-primary-600);
+    color: #3C0073;
   }
   
   .philosophy-principles p {
@@ -196,7 +212,7 @@
   /* Values Section */
   .values {
     padding: var(--space-xxl) 0;
-    background-color: var(--color-accent-800);
+    background-color: #645EAF;
     color: var(--color-neutral-100);
   }
   
@@ -217,7 +233,7 @@
   }
   
   .value-card {
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: #0b1957;
     padding: var(--space-lg);
     border-radius: var(--radius-md);
     transition: transform var(--transition-normal);

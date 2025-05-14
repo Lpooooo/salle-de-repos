@@ -5,9 +5,11 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://images.pexels.com/photos/4346338/pexels-photo-4346338.jpeg?auto=compress&cs=tinysrgb&w=1600') no-repeat center/cover;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('https://i.iheart.com/v3/url/aHR0cHM6Ly9tZWdhcGhvbmUuaW1naXgubmV0L3BvZGNhc3RzLzE1ZTg1YjUyLTUwYWEtMTFlZS1hMmY4LWJiODFlOWU1Mzk4My9pbWFnZS9pbGx1cy1vbmUtb2ZmLWdvb2RuaWdodC13b3JsZC0xMS1hYmJ5LXJ1ZHktb25jZS11cG9uLWEtbGlicmFyeS1saWJyYXJ5LWhlYWRlci0yMDIxMDkwOC1yYy5qcGc_aXhsaWI9cmFpbHMtNC4zLjEmbWF4LXc9MzAwMCZtYXgtaD0zMDAwJmZpdD1jcm9wJmF1dG89Zm9ybWF0LGNvbXByZXNz?ops=ratio(16,9),resize(1230,0),gravity(%22north%22)') no-repeat center/cover;
     color: var(--color-neutral-100);
     margin-top: 80px;
+    margin: 0;
+    padding: 0;
   }
   
   .reservation-hero-content {
@@ -27,6 +29,7 @@
   /* Reservation Container */
   .reservation-container {
     padding: var(--space-xxl) 0;
+    background-color: #e8d9ed
   }
   
   .reservation-form-container {
@@ -36,6 +39,7 @@
     border-radius: var(--radius-lg);
     box-shadow: var(--shadow-lg);
     overflow: hidden;
+    
   }
   
   /* Steps */
@@ -335,7 +339,7 @@
   /* Reservation Info */
   .reservation-info {
     padding: var(--space-xxl) 0;
-    background-color: var(--color-secondary-100);
+    background-color: #645EAF;
   }
   
   .info-cards {
@@ -346,7 +350,7 @@
   }
   
   .info-card {
-    background-color: var(--color-neutral-100);
+    background-color: #0b1957;
     padding: var(--space-lg);
     border-radius: var(--radius-md);
     box-shadow: var(--shadow-sm);
@@ -356,11 +360,12 @@
   .info-card h3 {
     margin-bottom: var(--space-sm);
     font-size: 1.3rem;
-    color: var(--color-primary-600);
+   color: #FFF;
   }
   
   .info-card p {
     margin-bottom: 0;
+     color: #FFF;
   }
   
   /* Media Queries */

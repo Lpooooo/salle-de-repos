@@ -71,8 +71,8 @@ const Contact = () => {
                 <FaEnvelope />
               </div>
               <h3>Email</h3>
-              <p>contact@tranquillite.fr</p>
-              <p>reservation@tranquillite.fr</p>
+              <p>contact@Calysta.fr</p>
+              <p>reservation@Calysta.fr</p>
             </div>
             
             <div className="contact-card">
@@ -89,8 +89,8 @@ const Contact = () => {
                 <FaMapMarkerAlt />
               </div>
               <h3>Adresse</h3>
-              <p>15 Rue de la Paix</p>
-              <p>75001 Paris, France</p>
+              <p>Rue Haddock </p>
+              <p>77000, Chessy France</p>
             </div>
             
             <div className="contact-card">
@@ -194,7 +194,7 @@ const Contact = () => {
                 />
                 <Marker position={position}>
                   <Popup>
-                    Tranquillité <br /> 15 Rue de la Paix, 75001 Paris
+                    Calysta <br /> Rue Haddock 77000, Chessy
                   </Popup>
                 </Marker>
               </MapContainer>

@@ -8,7 +8,7 @@ const History = () => {
     {
       year: '2020',
       title: 'La Vision',
-      description: 'L\'idée de Tranquillité est née d\'un constat simple : dans notre vie urbaine trépidante, nous manquons d\'espaces dédiés uniquement à la relaxation et au bien-être mental.'
+      description: 'L\'idée de Calysta est née d\'un constat simple : dans notre vie urbaine trépidante, nous manquons d\'espaces dédiés uniquement à la relaxation et au bien-être mental.'
     },
     {
       year: '2021',
@@ -63,12 +63,12 @@ const History = () => {
                 subtitle="Nos Débuts" 
                 title="De l'idée à la réalité"
               />
-              <p>Tranquillité est née d'une passion pour le bien-être et d'une conviction forte : dans notre monde hyperconnecté, nous avons plus que jamais besoin d'espaces dédiés à la déconnexion et à la relaxation.</p>
-              <p>Notre fondatrice, Julie Martin, ancienne cadre dans une entreprise tech, a vécu personnellement les effets du stress chronique. Après avoir découvert les bienfaits de la méditation et des pratiques de pleine conscience, elle a imaginé un lieu qui réunirait tous les éléments essentiels à la détente profonde.</p>
-              <p>Ce qui n'était au départ qu'un rêve est devenu, étape par étape, le sanctuaire urbain que nous connaissons aujourd'hui.</p>
+              <p class="custom-text">Calysta est née d'une passion pour le bien-être et d'une conviction forte : dans notre monde hyperconnecté, nous avons plus que jamais besoin d'espaces dédiés à la déconnexion et à la relaxation.</p>
+              <p class="custom-text">Notre fondatrice, Manon Viard, se dedie au bien-être des étudiants sur les campus Ynov. Elle propose des salles de sieste immersives, conçues pour offrir une pause régénérante au cœur du rythme intense des études. Grâce à des ambiances sensorielles douces, lumières, sons, odeurs, confort, ces espaces visent à favoriser la récupération mentale, réduire le stress, et améliorer la concentration. Calysta valorise le repos comme un levier de performance et de santé mentale dans l’environnement étudiant.</p>
+              <p class="custom-text">Ce qui n'était au départ qu'un rêve est devenu, étape par étape, le sanctuaire urbain que nous connaissons aujourd'hui.</p>
             </div>
             <div className="intro-image">
-              <img src="https://images.pexels.com/photos/16101400/pexels-photo-16101400/free-photo-of-woman-meditating-in-yoga-center.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Fondatrice de Tranquillité" />
+              <img src="https://cdn.shopify.com/s/files/1/0579/9962/2298/files/GN_slide3B_1024x1024.jpg?v=1626440825" alt="Fondatrice de Tranquillité" />
             </div>
           </div>
         </div>
@@ -108,14 +108,14 @@ const History = () => {
         <div className="container">
           <div className="philosophy-content">
             <div className="philosophy-image">
-              <img src="https://images.pexels.com/photos/3048516/pexels-photo-3048516.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Espace zen avec plantes et lumière naturelle" />
+              <img src="https://i.pinimg.com/736x/bc/b2/6d/bcb26db555143ba68b4d5e1a57ce7908.jpg" alt="Espace zen avec plantes et lumière naturelle" />
             </div>
             <div className="philosophy-text">
               <SectionTitle 
                 subtitle="Notre Philosophie" 
                 title="L'art de la détente authentique"
               />
-              <p>Chez Tranquillité, nous croyons que la véritable relaxation engage tous les sens et nécessite un environnement spécialement conçu pour favoriser le lâcher-prise.</p>
+              <p>Avec Calysta, nous croyons que la véritable relaxation engage tous les sens et nécessite un environnement spécialement conçu pour favoriser le lâcher-prise.</p>
               <p>Notre approche repose sur quatre principes fondamentaux :</p>
               <ul className="philosophy-principles">
                 <li>

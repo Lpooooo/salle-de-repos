@@ -35,9 +35,6 @@ const Reservation = () => {
   
   const spaces = [
     { id: 'meditation', name: 'Salon de Méditation' },
-    { id: 'garden', name: 'Jardin Zen' },
-    { id: 'reading', name: 'Espace de Lecture' },
-    { id: 'water', name: 'Salon Aquatique' },
     { id: 'nature', name: 'Atmosphère Nature' },
     { id: 'sensorial', name: 'Chambre Sensorielle' }
   ]

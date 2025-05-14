@@ -6,7 +6,7 @@
     justify-content: center;
     text-align: center;
     position: relative;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&w=1600') no-repeat center/cover;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://i.pinimg.com/originals/87/62/f6/8762f6a75742b0f1fc65e8cd5f9e04fb.jpg') no-repeat center/cover;
     color: var(--color-neutral-100);
     padding: 0 var(--space-md);
   }
@@ -18,11 +18,12 @@
   .hero h1 {
     color: var(--color-neutral-100);
     margin-bottom: var(--space-md);
-    font-size: 3.5rem;
+    font-size: 6rem;
+    
   }
   
   .hero p {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     margin-bottom: var(--space-lg);
     max-width: 600px;
     margin-left: auto;
@@ -39,12 +40,14 @@
   .features {
     padding: var(--space-xxl) 0;
     background-color: var(--color-secondary-100);
+      background-color:#e8d9ed;
   }
   
   .features-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: var(--space-lg);
+  
   }
   
   .feature-card {
@@ -54,11 +57,14 @@
     box-shadow: var(--shadow-sm);
     text-align: center;
     transition: transform var(--transition-normal), box-shadow var(--transition-normal);
+   background-color: #3C0073;
+    color: var(--color-neutral-100);
   }
   
   .feature-card:hover {
     transform: translateY(-10px);
     box-shadow: var(--shadow-md);
+  
   }
   
   .feature-icon {
@@ -68,20 +74,24 @@
     width: 70px;
     height: 70px;
     margin: 0 auto var(--space-md);
-    background-color: var(--color-primary-100);
+    background-color:#7D3C98;
     color: var(--color-primary-600);
     border-radius: 50%;
     font-size: 1.8rem;
+    color: var(--color-neutral-100);
   }
   
   .feature-card h3 {
     margin-bottom: var(--space-sm);
     font-size: 1.4rem;
+    color: var(--color-neutral-100);
   }
   
   /* About Preview Section */
   .about-preview {
     padding: var(--space-xxl) 0;
+
+    
   }
   
   .about-preview-content {
@@ -89,10 +99,13 @@
     grid-template-columns: 1fr 1fr;
     gap: var(--space-xl);
     align-items: center;
+    
+    
   }
   
   .about-text {
     padding-right: var(--space-lg);
+    
   }
   
   .about-image {
@@ -111,18 +124,21 @@
   
   .about-image:hover img {
     transform: scale(1.05);
+    
   }
   
   /* Testimonials Section */
   .testimonials {
     padding: var(--space-xxl) 0;
-    background-color: var(--color-primary-100);
+   background-color: #645EAF;
+   
   }
   
   .testimonials-carousel {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: var(--space-lg);
+  
   }
   
   .testimonial-card {
@@ -131,6 +147,7 @@
     overflow: hidden;
     box-shadow: var(--shadow-sm);
     transition: transform var(--transition-normal);
+    background-color: #0B1957;
   }
   
   .testimonial-card:hover {
@@ -140,10 +157,10 @@
   .testimonial-content {
     padding: var(--space-lg);
     position: relative;
+    color: #fff;
   }
   
   .testimonial-content::before {
-    content: '"';
     position: absolute;
     top: var(--space-md);
     left: var(--space-md);
@@ -152,6 +169,7 @@
     line-height: 1;
     color: var(--color-primary-200);
     z-index: 0;
+   
   }
   
   .testimonial-content p {
@@ -178,20 +196,25 @@
   .testimonial-author h4 {
     margin-bottom: 0;
     font-size: 1rem;
+    color: #fff;
   }
   
   .testimonial-author p {
     margin-bottom: 0;
     font-size: 0.875rem;
     color: var(--color-neutral-600);
+    color: #fff;
   }
   
   /* CTA Section */
   .cta {
     padding: var(--space-xxl) 0;
-    background: linear-gradient(rgba(29, 53, 87, 0.9), rgba(29, 53, 87, 0.9)), url('https://images.pexels.com/photos/3764013/pexels-photo-3764013.jpeg?auto=compress&cs=tinysrgb&w=1600') no-repeat center/cover;
+  background: linear-gradient(rgba(11, 25, 87, 0.9), rgba(11, 25, 87, 0.7)), 
+            url('https://images.pexels.com/photos/3764013/pexels-photo-3764013.jpeg?auto=compress&cs=tinysrgb&w=1600') 
+            no-repeat center/cover;
     color: var(--color-neutral-100);
     text-align: center;
+    
   }
   
   .cta-content {
@@ -202,6 +225,7 @@
   .cta h2 {
     color: var(--color-neutral-100);
     margin-bottom: var(--space-md);
+    
   }
   
   .cta p {
@@ -235,7 +259,7 @@
   @media (max-width: 768px) {
     .hero h1 {
       font-size: 2.5rem;
-    }
+    } 
     
     .about-preview-content {
       grid-template-columns: 1fr;

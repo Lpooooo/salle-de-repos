@@ -10,7 +10,7 @@ const Footer = () => {
       <div className="container">
         <div className="footer-content">
           <div className="footer-brand">
-            <h3>Tranquillité</h3>
+            <h3>Calysta</h3>
             <p>Votre oasis de calme et de sérénité au cœur de la ville.</p>
             <div className="social-links">
               <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
@@ -41,19 +41,18 @@ const Footer = () => {
             <ul>
               <li>
                 <FaMapMarkerAlt />
-                <span>15 Rue de la Paix, 75001 Paris</span>
+                <span>Rue Haddock 77000, Chessy</span>
               </li>
               <li>
                 <FaPhoneAlt />
-                <span>+33 1 23 45 67 89</span>
-              </li>
+                <span>+06 95 66 57 19</span>
+              </li> 
               <li>
                 <FaEnvelope />
-                <span>contact@tranquillite.fr</span>
+                <span>Calysta@ynov.com</span>
               </li>
             </ul>
           </div>
-          
           <div className="footer-hours">
             <h4>Horaires d'Ouverture</h4>
             <ul>
@@ -65,7 +64,7 @@ const Footer = () => {
         </div>
         
         <div className="footer-bottom">
-          <p>&copy; {currentYear} Tranquillité. Tous droits réservés.</p>
+          <p>&copy; {currentYear} Tous droits réservés.</p>
           <div className="footer-legal">
             <a href="#">Mentions Légales</a>
             <a href="#">Politique de Confidentialité</a>

@@ -24,7 +24,7 @@ const Home = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
           >
-            Votre espace de détente au cœur de la ville
+            Votre espace de détente
           </motion.h1>
           <motion.p
             initial={{ opacity: 0 }}
@@ -136,6 +136,7 @@ const Home = () => {
             subtitle="Témoignages" 
             title="Ce que nos clients disent"
             centered={true}
+            subtitleStyle={{ color: 'white' }}
           />
           
           <div className="testimonials-carousel">

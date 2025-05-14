@@ -5,9 +5,11 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://images.pexels.com/photos/3764013/pexels-photo-3764013.jpeg?auto=compress&cs=tinysrgb&w=1600') no-repeat center/cover;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('https://www.salika.co/wp-content/uploads/2021/02/Headspace-2.jpg') no-repeat center/cover;
     color: var(--color-neutral-100);
     margin-top: 80px;
+    margin: 0;
+    padding: 0;
   }
   
   .showcase-hero-content {
@@ -15,18 +17,20 @@
   }
   
   .showcase-hero h1 {
-    color: var(--color-neutral-100);
     margin-bottom: var(--space-md);
+    color: #fff;
   }
   
   .showcase-hero p {
     font-size: 1.2rem;
     margin-bottom: 0;
+    color: #fff;
   }
   
   /* Showcase Intro */
   .showcase-intro {
     padding: var(--space-xxl) 0;
+    background-color: #645EAF;
   }
   
   .intro-text {
@@ -34,6 +38,7 @@
     margin: 0 auto var(--space-xl);
     text-align: center;
     font-size: 1.1rem;
+    color: #fff;
   }
   
   .filter-controls {
@@ -42,10 +47,10 @@
     flex-wrap: wrap;
     gap: var(--space-sm);
     margin-bottom: var(--space-xl);
+    
   }
   
   .filter-controls button {
-    background-color: var(--color-neutral-200);
     color: var(--color-neutral-800);
     border: none;
     padding: var(--space-xs) var(--space-md);
@@ -55,6 +60,7 @@
     display: flex;
     align-items: center;
     gap: var(--space-xs);
+    background-color: #FFF;
   }
   
   .filter-controls button:hover {
@@ -78,6 +84,7 @@
     overflow: hidden;
     box-shadow: var(--shadow-sm);
     transition: transform var(--transition-normal), box-shadow var(--transition-normal);
+    
   }
   
   .space-card:hover {
@@ -119,6 +126,7 @@
   
   .space-card:hover .image-overlay {
     opacity: 1;
+    
   }
   
   .search-icon {
@@ -143,7 +151,7 @@
   /* Amenities Section */
   .amenities {
     padding: var(--space-xxl) 0;
-    background-color: var(--color-secondary-100);
+    background-color: #e8d9ed;;
   }
   
   .amenities-grid {
@@ -151,6 +159,7 @@
     grid-template-columns: repeat(2, 1fr);
     gap: var(--space-lg);
     margin-top: var(--space-xl);
+    
   }
   
   .amenity-card {
@@ -158,17 +167,19 @@
     padding: var(--space-lg);
     border-radius: var(--radius-md);
     box-shadow: var(--shadow-sm);
+    background-color: #0b1957;
   }
   
   .amenity-card h3 {
     margin-bottom: var(--space-md);
     font-size: 1.4rem;
-    color: var(--color-primary-600);
+    color: #fff;
   }
   
   .amenity-card ul {
     list-style-position: inside;
     padding-left: var(--space-xs);
+    color: #fff;
   }
   
   .amenity-card li {
@@ -216,7 +227,7 @@
     top: 0;
     width: 40px;
     height: 40px;
-    background-color: var(--color-primary-500);
+    background-color: #e8d9ed;
     color: white;
     border-radius: 50%;
     display: flex;
